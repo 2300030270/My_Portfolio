@@ -1,0 +1,6 @@
+.about-text {
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--text);
+  max-width: 680px;
+}

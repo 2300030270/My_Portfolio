@@ -1,0 +1,67 @@
+.project-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.project-card {
+  background: var(--bg-panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: 26px 28px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  border-color: var(--accent);
+  box-shadow: var(--shadow);
+}
+
+.project-name {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--font-display);
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+.project-stack {
+  margin-bottom: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.project-tech {
+  font-size: 13px;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.project-dot {
+  color: var(--text-dim);
+  margin: 0 8px;
+  font-size: 12px;
+}
+
+.project-desc {
+  font-size: 15px;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 16px;
+  max-width: 620px;
+}
+
+.project-link {
+  font-size: 13.5px;
+  color: var(--text);
+  font-weight: 600;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 2px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.project-link:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
